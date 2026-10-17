@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Linux Adminw21 v1
+Comment=Linux system administration and live monitoring
+Comment[de]=Linux-Systemverwaltung und Live-Überwachung
+Exec=/usr/local/bin/adminw21 --gui
+Icon=utilities-system-monitor
+Terminal=false
+Categories=System;Monitor;

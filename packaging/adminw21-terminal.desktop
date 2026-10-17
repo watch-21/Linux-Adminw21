@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Linux Adminw21 v1 — Terminal
+Exec=sudo /usr/local/bin/adminw21 --terminal
+Icon=utilities-terminal
+Terminal=true
+Categories=System;

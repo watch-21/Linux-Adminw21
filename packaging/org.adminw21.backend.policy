@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+ <vendor>Linux Adminw21</vendor>
+ <action id="org.adminw21.backend">
+  <description>Administer this Linux system with Linux Adminw21 v1</description>
+  <description xml:lang="de">Dieses Linux-System mit Linux Adminw21 v1 verwalten</description>
+  <message>Administrator authentication is required</message>
+  <defaults><allow_any>no</allow_any><allow_inactive>no</allow_inactive><allow_active>auth_admin</allow_active></defaults>
+  <annotate key="org.freedesktop.policykit.exec.path">/usr/local/share/adminw21/backend/backend.sh</annotate>
+ </action>
+</policyconfig>

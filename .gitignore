@@ -1,0 +1,16 @@
+*.swp
+*.tmp
+__pycache__/
+operations.log
+.settings.*
+.env
+.env.*
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.py[cod]
+qa/
+dist/
+linux-*.log
+linux-matrix-results.json

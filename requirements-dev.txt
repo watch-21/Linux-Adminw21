@@ -1,0 +1,3 @@
+pytest>=8,<10
+ruff>=0.8,<1
+shellcheck-py>=0.10,<0.12

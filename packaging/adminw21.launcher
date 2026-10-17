@@ -1,0 +1,3 @@
+#!/bin/bash
+# Linux Adminw21 v1 owned launcher
+exec /usr/local/share/adminw21/admin.sh "$@"

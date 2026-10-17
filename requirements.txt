@@ -1,0 +1,4 @@
+# Older CPython needs the validated Qt 6.8 branch; 6.12.0 has a None refcount regression.
+PySide6-Essentials==6.8.3; python_version < "3.12"
+PySide6-Essentials>=6.6,<7; python_version >= "3.12"
+psutil>=5.9,<8

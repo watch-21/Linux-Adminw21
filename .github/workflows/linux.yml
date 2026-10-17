@@ -1,0 +1,25 @@
+name: Linux Adminw21 v1 compatibility
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        distro: [ubuntu22, ubuntu24, debian12, debian13, kali, fedora, arch, opensuse, alpine]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run disposable Linux userspace
+        run: python3 tests/linux_matrix.py --distro '${{ matrix.distro }}' --output results.json
+      - name: Save exact results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-${{ matrix.distro }}
+          path: |
+            results.json
+            linux-*.log

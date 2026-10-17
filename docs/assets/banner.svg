@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Linux Adminw21 v1</title>
+<desc id="desc">Linux administration with desktop and terminal interfaces. Monitor, manage and inspect.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#121c2b"/><stop offset="1" stop-color="#202c3e"/></linearGradient></defs>
+<rect width="1200" height="280" rx="20" fill="url(#bg)"/>
+<rect x="0" y="0" width="8" height="280" rx="4" fill="#4cd1df"/>
+<rect x="54" y="61" width="142" height="142" rx="26" fill="#253849" stroke="#4cd1df" stroke-opacity=".4"/>
+<path d="m88 105 25 25-25 25m43 0h30" fill="none" stroke="#4cd1df" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="DejaVu Sans,Arial,sans-serif">
+<text x="232" y="111" fill="#eff6ff" font-size="47" font-weight="700">Linux Adminw21</text>
+<rect x="666" y="72" width="58" height="42" rx="12" fill="#244b48"/>
+<text x="681" y="101" fill="#70e0bd" font-size="25" font-weight="700">v1</text>
+<text x="234" y="155" fill="#b3c3d7" font-size="24">Linux administration. Desktop and terminal.</text>
+<text x="234" y="207" fill="#4cd1df" font-size="17" letter-spacing="2">MONITOR</text>
+<circle cx="347" cy="201" r="3" fill="#5a708a"/>
+<text x="366" y="207" fill="#70e0bd" font-size="17" letter-spacing="2">MANAGE</text>
+<circle cx="471" cy="201" r="3" fill="#5a708a"/>
+<text x="491" y="207" fill="#c6d4e7" font-size="17" letter-spacing="2">INSPECT</text>
+<text x="1070" y="244" fill="#8da5be" font-size="16">DE / EN</text>
+</g></svg>
